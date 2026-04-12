@@ -4,6 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bookmark-saver</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Bookmark saver</h1>
+
+      <form id="bookmark-form">
+        <input id="title" type="text" placeholder="Enter bookmark title" />
+
+        <input id="url" type="url" placeholder="Enter bookmark URL" />
+
+        <button type="submit">Add Bookmark</button>
+      </form>
+      <section id="bookmark-list"></section>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
