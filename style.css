@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+#bookmark-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
